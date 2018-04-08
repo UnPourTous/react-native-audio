@@ -33,7 +33,6 @@ public class ReactNativeAudioPackage implements ReactPackage {
      * will be automatically included in the JS bundle.
      * @deprecated in react-native v0.47+ edtion
      */
-    @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
